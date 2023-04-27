@@ -1,0 +1,141 @@
+body {
+    background: #7985f0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand img {
+    filter: grayscale(1) brightness(100);
+}
+section:nth-child(2n) .section-card {
+    flex-direction: row-reverse;
+}
+
+ul.navbar-nav {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+ul.navbar-nav a {
+    color: #ffffff;
+}
+
+ul.navbar-nav a.active,
+ul.navbar-nav a:hover {
+    color: #70ebe6 !important;
+}
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+section {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+
+div#list-example {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 50px;
+    z-index: 100;
+}
+
+.list-group-item {
+    border-top: 2px solid #fff !important;
+    color: transparent !important;
+    font-size: 16px;
+    margin-left: 16px;
+    min-width: 40px;
+    padding-top: 10px;
+    transition: all 0.5s;
+}
+
+.list-group-item:hover,
+.list-group-item.active {
+    color: #fff !important;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.info-card {
+    color: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 32px;
+    position: relative;
+    text-align: left;
+    width: 100vw;
+}
+
+.info-card-title {
+    font-size: 56px;
+    font-weight: 800;
+    margin: 16px 8px;
+    text-align: left;
+}
+
+.info-card-desc {
+    font-size: 16px;
+    margin: 16px 8px;
+    text-align: left;
+}
+
+footer {
+    align-items: center;
+    background: #f8f8f8;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat Alternates';
+    font-size: 18px;
+    font-weight: 400;
+    gap: 32px;
+    justify-content: center;
+    padding: 32px;
+    text-align: center;
+}
+
+.section-card {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 32px;
+    padding-left: 56px;
+}
+
+img.info-graphic {
+    flex: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 40vw;
+}
+
+#section-2 {
+    background: #963596;
+}
+#section-3 {
+    background: #df9925;
+}
+#section-4 {
+    background: #0b9ffa;
+}
+
+#section-5 {
+    background: #00ad7e;
+}
