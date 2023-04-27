@@ -9,7 +9,9 @@ body {
 section:nth-child(2n) .section-card {
     flex-direction: row-reverse;
 }
-
+main {
+    margin-top: 0;
+}
 ul.navbar-nav {
     align-items: center;
     display: flex;
